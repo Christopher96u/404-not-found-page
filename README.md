@@ -1,46 +1,83 @@
-# Getting Started with Create React App
+# 404 Not Found Page
+<table>
+<tr>
+<td>
+  A basic landing page for showing your 404 not found page message!
+</td>
+</tr>
+</table>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## Demo
+Here is a working live demo :  https://christopher96u.github.io/404-not-found-page/
+
+
+## Site
+
+### Gifs
+Here you can see how it works in mobile and desktop, both using Apple devices.
+
+![](https://media1.tenor.com/images/c5ed9e5c061961b67ac2344fd279af75/tenor.gif?itemid=24859295)
+![](https://media1.tenor.com/images/9e59daa0479dcedd72d623b5b433b912/tenor.gif?itemid=24859321)
+
+
+
+## Built with 
+
+- React
+- Typescript
+- Tailwind
+- React-testing-library (Jest)
+
+
+
+### Features
+
+There are some important features in this project :
+
+- Dark mode
+- Unit testing
+- Persistent dark mode preference, your style(dark or light mode) will be saved in localStorage
+
+### Available Scripts
 
 In the project directory, you can run:
 
 ### `npm start`
 
-Runs the app in the development mode.\
+Runs the app in the development mode.<br />
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.\
+The page will reload if you make edits.<br />
 You will also see any lint errors in the console.
 
 ### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+This script run all the tests.
 
-### `npm run build`
+### `npm coverage`
 
-Builds the app for production to the `build` folder.\
+This script will show you in an interactive table how much has been teste the project.
+
+### `npm build`
+
+Builds the app for production to the `build` folder.<br />
 It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### `npm predeploy`
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+This script is the same than `build`, the main difference is that prepare your project to be deployed.
 
-### `npm run eject`
+### `npm deploy`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+This script deploy your project to Github Pages.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Bug / Feature Request
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+If you find a bug (the website couldn't handle the query and / or gave undesired results), kindly open an issue.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+If you'd like to request a new function, feel free to do so by opening an issue. Please include sample queries and their corresponding results.
 
-## Learn More
+## Team
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+Made with love by  [Christopher96u](https://github.com/Christopher96u)
