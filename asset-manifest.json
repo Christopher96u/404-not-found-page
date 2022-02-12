@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/404-not-found-page/static/css/main.d5e03250.css",
+    "main.js": "/404-not-found-page/static/js/main.9adeeae6.js",
+    "index.html": "/404-not-found-page/index.html",
+    "main.d5e03250.css.map": "/404-not-found-page/static/css/main.d5e03250.css.map",
+    "main.9adeeae6.js.map": "/404-not-found-page/static/js/main.9adeeae6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d5e03250.css",
+    "static/js/main.9adeeae6.js"
+  ]
+}
